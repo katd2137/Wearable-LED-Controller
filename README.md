@@ -20,7 +20,7 @@ Functionality:
 - A master switch controls the LEDs.
 - There are 4 JST headers (H3 - H8) for connecting 4 LED panels (currently testing with a single LED strip using crocodile clips).
 One of the problems was that the PCB footprint for ESP8266 that we have used had different pin locations from the actual board used (a mistake as I thought it they were all the same across the adafruit feather range). We needed to rewrite the code for the correct PIN numbers from 13 (printed on the pub) to 14 (the actual placement).
-JST H1 is the 3.7v Lipo output from the VBAT pin - and feeds into the input side of the step-up regulator. H2 is then for the output of that same regulator, feeding the 5v back into the board.
+JST H1 is the 3.7v Lipo output from the VBAT pin - and feeds into the input side of the step-up regulator. H2 is then for the output of that same regulator, feeding the 5v back into the board. Switch H9.
 
 Here’s what I’ve done so far:
 
